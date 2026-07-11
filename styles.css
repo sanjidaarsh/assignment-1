@@ -1,4 +1,9 @@
-.logo{
+*{ 
+     margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ .logo{
     display:flex;
     align-items: center;
     gap: 10px;
@@ -7,4 +12,30 @@
     width: 45px;
     height: 45px;
     object-fit: contain; 
+} 
+body{
+    font-family:Arial, sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+} 
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+.btn{
+    padding:12px 25px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+} 
+.nav-links a{
+    text-decoration:none;
+    color:#222; 
 }
