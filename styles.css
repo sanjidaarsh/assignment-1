@@ -83,3 +83,34 @@ body{
 .hero p{
     margin-bottom:25px;
 }
+.speakers{
+    padding:80px 8%;
+}
+
+.speakers h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.speaker-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.speaker-card{
+    background:#f5f5f5;
+    padding:15px;
+}
+
+.speaker-card img{
+    width:100%;
+}
+
+.speaker-card span{
+    color:#2563eb;
+}
